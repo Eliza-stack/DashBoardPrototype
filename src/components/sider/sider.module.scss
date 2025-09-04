@@ -1,0 +1,17 @@
+.menu {
+    .ant-menu-item span,
+  .ant-menu-item svg {
+    color: rgba(0,0,0,0.85);
+    transition: color 0.3s;
+  }
+
+  :global(.ant-menu-item-selected) span,
+  :global(.ant-menu-item-selected) svg {
+    color: #00d3cb !important;
+  }
+ 
+  :global(.ant-menu-item:hover) span,
+  :global(.ant-menu-item:hover) svg {
+    color: #00d3cb !important;
+  }
+}
